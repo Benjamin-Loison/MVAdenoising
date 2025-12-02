@@ -196,7 +196,7 @@ def train_val_denoising_dataloaders(imagepath, noise_sigma=30, crop_size=40,
     '''creates dataloaders '''
     # The torchvision.transforms package provides tools for preprocessing data
     # and for performing data augmentation; here we set up a transform to
-    # preprocess the data by rancomly cropping the image and converting to tensor
+    # preprocess the data by randomly cropping the image and converting to tensor
     data_preprocessing=T.Compose([ T.RandomCrop(crop_size), T.RandomHorizontalFlip(),
                                    T.RandomVerticalFlip(), T.ToTensor() ])
 
