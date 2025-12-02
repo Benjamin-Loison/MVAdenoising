@@ -260,7 +260,7 @@ def overprintText(im,imout,text,textRGBA=(255,255,255,255)):
     
 def display_patches_vrange(mb, vrange=None):
     '''
-    disaplay all images in a list as patches in a squared figure
+    display all images in a list as patches in a squared figure
     Args:
         mb is a list or a numpy array of images
     '''
